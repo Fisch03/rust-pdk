@@ -19,7 +19,7 @@ base64 = "0.22.1"
 
 [features]
 default = ["http", "json", "base64", "msgpack", "prost", "raw"]
-http = ["extism-manifest"]
+http = ["extism-manifest", "json"]
 
 json = ["extism-convert/json"]
 msgpack = ["extism-convert/msgpack"]
